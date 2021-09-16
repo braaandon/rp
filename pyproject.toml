@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "rp"
+version = "0.1.0"
+description = ""
+authors = ["staccato <moveq@riseup.net>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pypresence = "^4.2.0"
+psutil = "^5.8.0"
+py-cpuinfo = "^8.0.0"
+GPUtil = "^1.4.0"
+os-release = "^1.0.1"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+rp = 'rp:main'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
